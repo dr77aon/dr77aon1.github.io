@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>enter your grads in numbers to get cpi</h1>
+    <form name="avg_">
+        number1: <input type="text" name="num1_">
+        number2: <input type="text" name="num2_">
+        result: <input type="text" name="average"><br>
+        <input type="button" value="Calculate" onclick="avg()">
+
+    </form>
+    <script>
+        function avg(){
+            var A=10,B=8,C=6;
+
+        var c1=6,c2=8;
+        var num1,num2,avg;
+        num1=Number(document.avg_.num1_.value);
+        num2=Number(document.avg_.num2_.value);
+        avg= ((num1*c1)+(num2*c2))/(c1+c2);
+        document.avg_.average.value=avg;
+        }
+    </script>
+</body>
+</html>
