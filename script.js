@@ -29,9 +29,9 @@ function spi(){
      if (mth2option.options[mth2option.selectedIndex].value==="C+"){a2=7;}
      if (mth2option.options[mth2option.selectedIndex].value==="C"){a2=6;}
      if (mth2option.options[mth2option.selectedIndex].value==="D+"){a2=5;}
-     if (mth2option.options[mth2option.selectedIndex].value==="E"){a1=0;}
-     if (mth2option.options[mth2option.selectedIndex].value==="F"){a1=0;}
-     if (mth2option.options[mth2option.selectedIndex].value==="I"){a1=0;}
+     if (mth2option.options[mth2option.selectedIndex].value==="E"){a2=0;}
+     if (mth2option.options[mth2option.selectedIndex].value==="F"){a2=0;}
+     if (mth2option.options[mth2option.selectedIndex].value==="I"){a2=0;}
     else if (mth2option.options[mth2option.selectedIndex].value==="D"){a2=4;}
 
     if (phyoption.options[phyoption.selectedIndex].value==="A*"){a3=10;}
@@ -41,9 +41,9 @@ function spi(){
      if (phyoption.options[phyoption.selectedIndex].value==="C+"){a3=7;}
      if (phyoption.options[phyoption.selectedIndex].value==="C"){a3=6;}
      if (phyoption.options[phyoption.selectedIndex].value==="D+"){a3=5;}
-     if (phyoption.options[phyoption.selectedIndex].value==="E"){a1=0;}
-     if (phyoption.options[phyoption.selectedIndex].value==="F"){a1=0;}
-     if (phyoption.options[phyoption.selectedIndex].value==="I"){a1=0;}
+     if (phyoption.options[phyoption.selectedIndex].value==="E"){a3=0;}
+     if (phyoption.options[phyoption.selectedIndex].value==="F"){a3=0;}
+     if (phyoption.options[phyoption.selectedIndex].value==="I"){a3=0;}
     else if (phyoption.options[phyoption.selectedIndex].value==="D"){a3=4;}
 
     if (chm2option.options[chm2option.selectedIndex].value==="A*"){a4=10;}
@@ -53,9 +53,9 @@ function spi(){
      if (chm2option.options[chm2option.selectedIndex].value==="C+"){a4=7;}
      if (chm2option.options[chm2option.selectedIndex].value==="C"){a4=6;}
      if (chm2option.options[chm2option.selectedIndex].value==="D+"){a4=5;}
-      if (chm2option.options[chm2option.selectedIndex].value==="E"){a1=0;}
-     if (chm2option.options[chm2option.selectedIndex].value==="F"){a1=0;}
-     if (chm2option.options[chm2option.selectedIndex].value==="I"){a1=0;}
+      if (chm2option.options[chm2option.selectedIndex].value==="E"){a4=0;}
+     if (chm2option.options[chm2option.selectedIndex].value==="F"){a4=0;}
+     if (chm2option.options[chm2option.selectedIndex].value==="I"){a4=0;}
     else if (chm2option.options[chm2option.selectedIndex].value==="D"){a4=4;}
 
     if (chm3option.options[chm3option.selectedIndex].value==="A*"){a5=10;}
@@ -65,9 +65,9 @@ function spi(){
      if (chm3option.options[chm3option.selectedIndex].value==="C+"){a5=7;}
      if (chm3option.options[chm3option.selectedIndex].value==="C"){a5=6;}
      if (chm3option.options[chm3option.selectedIndex].value==="D+"){a5=5;}
-      if (chm3option.options[chm3option.selectedIndex].value==="E"){a1=0;}
-     if (chm3option.options[chm3option.selectedIndex].value==="F"){a1=0;}
-     if (chm3option.options[chm3option.selectedIndex].value==="I"){a1=0;}
+      if (chm3option.options[chm3option.selectedIndex].value==="E"){a5=0;}
+     if (chm3option.options[chm3option.selectedIndex].value==="F"){a5=0;}
+     if (chm3option.options[chm3option.selectedIndex].value==="I"){a5=0;}
     else if (chm3option.options[chm3option.selectedIndex].value==="D"){a5=4;}
 
     if (phylaboption.options[phylaboption.selectedIndex].value==="A*"){a6=10;}
@@ -77,9 +77,9 @@ function spi(){
      if (phylaboption.options[phylaboption.selectedIndex].value==="C+"){a6=7;}
      if (phylaboption.options[phylaboption.selectedIndex].value==="C"){a6=6;}
      if (phylaboption.options[phylaboption.selectedIndex].value==="D+"){a6=5;}
-      if (phylaboption.options[phylaboption.selectedIndex].value==="E"){a1=0;}
-     if (phylaboption.options[phylaboption.selectedIndex].value==="F"){a1=0;}
-     if (phylaboption.options[phylaboption.selectedIndex].value==="I"){a1=0;}
+      if (phylaboption.options[phylaboption.selectedIndex].value==="E"){a6=0;}
+     if (phylaboption.options[phylaboption.selectedIndex].value==="F"){a6=0;}
+     if (phylaboption.options[phylaboption.selectedIndex].value==="I"){a6=0;}
     else if (phylaboption.options[phylaboption.selectedIndex].value==="D"){a6=4;}
 
     if (taoption.options[taoption.selectedIndex].value==="A*"){a7=10;}
@@ -89,9 +89,9 @@ function spi(){
      if (taoption.options[taoption.selectedIndex].value==="C+"){a7=7;}
      if (taoption.options[taoption.selectedIndex].value==="C"){a7=6;}
      if (taoption.options[taoption.selectedIndex].value==="D+"){a7=5;}
-      if (taoption.options[taoption.selectedIndex].value==="E"){a1=0;}
-     if (taoption.options[taoption.selectedIndex].value==="F"){a1=0;}
-     if (taoption.options[taoption.selectedIndex].value==="I"){a1=0;}
+      if (taoption.options[taoption.selectedIndex].value==="E"){a7=0;}
+     if (taoption.options[taoption.selectedIndex].value==="F"){a7=0;}
+     if (taoption.options[taoption.selectedIndex].value==="I"){a7=0;}
     else if (taoption.options[taoption.selectedIndex].value==="D"){a7=4;}
 
     if (elcoption.options[elcoption.selectedIndex].value==="A*"){a8=10;}
@@ -101,9 +101,9 @@ function spi(){
      if (elcoption.options[elcoption.selectedIndex].value==="C+"){a8=7;}
      if (elcoption.options[elcoption.selectedIndex].value==="C"){a8=6;}
      if (elcoption.options[elcoption.selectedIndex].value==="D+"){a8=5;}
-      if (elcoption.options[elcoption.selectedIndex].value==="E"){a1=0;}
-     if (elcoption.options[elcoption.selectedIndex].value==="F"){a1=0;}
-     if (elcoption.options[elcoption.selectedIndex].value==="I"){a1=0;}
+      if (elcoption.options[elcoption.selectedIndex].value==="E"){a8=0;}
+     if (elcoption.options[elcoption.selectedIndex].value==="F"){a8=0;}
+     if (elcoption.options[elcoption.selectedIndex].value==="I"){a8=0;}
     else if (elcoption.options[elcoption.selectedIndex].value==="D"){a8=4;}
    
 
